@@ -1,6 +1,6 @@
 
 const emailArray = ["azizafarooq@gmail.com", "esempioemail@gmail.com", "esempiodue@gmail.com"];
-const checkEmail = document.getElementById("button-Email");
+const checkEmail = document.getElementById("button-email");
 const resultEmail = document.getElementById("result-email");
 
 checkEmail.addEventListener('click', function(){
