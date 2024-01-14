@@ -8,8 +8,8 @@ numberGenerator.addEventListener('click', function(){
     const computerNumber = Math.floor(Math.random() * 6) + 1;
 
     userCard.innerText= "Il tuo numero generato è: " + userNumber;
-    computerCard.innerText= "Quello computer è: " + computerNumber;
-    
+    computerCard.innerText= "Quello del computer è: " + computerNumber;
+
     console.log(userNumber, computerNumber);
 
     if(userNumber > computerNumber){

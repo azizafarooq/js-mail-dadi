@@ -3,7 +3,7 @@
 
   Stabilire il vincitore, in base a chi fa il punteggio più alto.
 
-# Svolgimento
+## Svolgimento
   - Creare un bottone 
   - Al suo click generare:
 
@@ -18,3 +18,15 @@
 - Altrimenti:
 
       stampare "Hai perso!"
+
+
+# Consegna (Mail)
+ Chiedi all'utente la sua email
+
+ Controlla che sia nella lista di chi può accedere
+
+ Stampa un messaggio appropriato sull'esito del controllo
+
+## Svolgimento
+- Creo un input sull'html
+- Chiedo all'utente la sua mail
