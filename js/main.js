@@ -4,7 +4,7 @@ const checkEmail = document.getElementById("button-email");
 const resultEmail = document.getElementById("result-email");
 
 checkEmail.addEventListener('click', function(){
-    const email = document.getElementById("email").value.toLowercase();
+    const email = document.getElementById("email").value;
     let emailValida = false;
 
     for (let i = 0; i < emailArray.length; i++){

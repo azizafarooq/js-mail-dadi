@@ -4,25 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
     <script src="./js/main.js" defer></script>
     <title>Mail e gioco</title>
 </head>
 <body>
-    <div class="container my-4 text-center">
+    <div class="container text-center main-container">
 
-        <h1>Convalida Mail</h1>
-        <label for="email">Inserisci la tua email:</label>
-        <input type="text" id="email" class="form-control mb-3" autofocus>
-        <div id="button-email" class="btn btn-primary" value="">Controlla Mail</div>
-        <h2 id="result-email" class="p-5 text-primary"></h2>
+        <h1 class="p-5">Convalida Mail</h1>
+        <label for="email" class="my-3">Inserisci la tua email:</label>
+        <input type="text" id="email" class="form-control mb-3" placeholder="Inserisci la tua mail" autofocus>
+        <div id="button-email" class="btn btn-primary my-4" value="">Controlla Mail</div>
+        <h2 id="result-email" class="p-5"></h2>
 
         <h1>Gioco dei dadi</h1>
-        <div id="button" class="btn btn-primary my-4">Genera un numero</div>
+        <div id="button" class="btn btn-primary my-3">Genera un numero</div>
         <div class="container d-flex justify-content-center">
-            <span id="user-card" class="card p-5 d-flex"></span>
-            <span id="computer-card" class="card p-5"></span>
+            <span id="user-card" class="card customcard p-5 mx-2"></span>
+            <span id="computer-card" class="card customcard p-5 mx-2"></span>
         </div>
-        <h2 id="result-game" class="p-5 text-primary"></h2>
+        <h2 id="result-game" class="p-5"></h2>
     </div>
 
 </body>

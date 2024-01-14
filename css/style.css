@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.main-container{
+    background-color: rgb(255, 221, 153);
+    border-radius: 50px;
+    box-shadow:  12px 12px 53px #a1a1a1, -12px -12px 53px #ffffff;
+    margin: 0;
+}
+
+
+
+.customcard{
+    border-radius: 25px;
+    background: #ffeecc;
+}
+
+h1,
+label{
+    color: #805500;
+}
+
+#button,
+#button-email{
+    background-color: #805500;
+    border: #805500;
+}
+
+#result-email,
+#result-game{
+    color: #e69900 ;
+}
+
+.form-control {
+    width: 50%;
+    color: #805500;
+    margin: auto;
+}
